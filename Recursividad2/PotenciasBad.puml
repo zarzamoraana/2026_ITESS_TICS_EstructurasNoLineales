@@ -1,0 +1,13 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class PotenciasBad {
+    ~ base : double
+    ~ exponente : int
+    + {static} powerBad(x : double, n : int) : double
+    + leerDatos() : void
+    + resuelve() : void
+    + {static} main(args : String[]) : void
+}
+
+@enduml
